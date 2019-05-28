@@ -1,0 +1,1 @@
+export { default } from 'ember-debounced-inputs/components/debounced-checkbox';

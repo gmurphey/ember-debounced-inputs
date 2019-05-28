@@ -1,0 +1,10 @@
+<DebouncedValue @value={{this.checked}} @onDebounce={{this.onChange}} @debounce={{this.debounce}} as |checked actions|>
+  <input
+    type="checkbox"
+    checked={{this.initiallyChecked}}
+    aria-checked={{checked}}
+    {{on "change" (action "onChange" actions.update)}}
+    {{did-update (action "didUpdateChecked" checked) checked}}
+    ...attributes
+  >
+</DebouncedValue>

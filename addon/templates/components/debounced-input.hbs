@@ -1,0 +1,8 @@
+<DebouncedValue @value={{this.value}} @onDebounce={{this.onChange}} @debounce={{this.debounce}} as |value actions|>
+  <input
+    type="text"
+    value={{value}}
+    {{on "input" (action "onInput" actions.update)}}
+    ...attributes
+  >
+</DebouncedValue>

@@ -1,0 +1,10 @@
+{{yield
+  this._value
+  (hash
+    update=(perform this.debouncedUpdate)
+    cancel=(cancel-all this.debouncedUpdate)
+  )
+  (hash
+    isRunning=this.debouncedUpdate.isRunning
+  )
+}}
