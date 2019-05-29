@@ -62,7 +62,7 @@ This addon also provides a renderless `DebouncedValue` component that all of its
 
   <button data-test-id="foobarbuzz" {{on 'click' (action actions.update 'foobarbuzz')}}>
     Update to 'foobarbuzz'
-  </button
+  </button>
 </DebouncedValue>
 ```
 
