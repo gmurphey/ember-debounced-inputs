@@ -5,8 +5,6 @@ export default Component.extend({
   tagName: '',
   layout,
 
-  debounce: 250,
-
   init() {
     this._super(...arguments);
 
