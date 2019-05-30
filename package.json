@@ -5,9 +5,9 @@
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": "https://github.com/gmurphey/ember-debounced-inputs",
   "license": "MIT",
-  "author": "",
+  "author": "Garrett Murphey <gmurphey@gmail.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
